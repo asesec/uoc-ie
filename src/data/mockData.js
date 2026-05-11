@@ -206,7 +206,7 @@ export const games = [
     id: 'music',
     title: 'Recuerdos musicales',
     prompt: '¿Qué cantante popularizó "Mediterráneo"?',
-    options: ['Joan Manuel Serrat', 'Niño Bravo', 'Rocío Jurado'],
+    options: ['Joan Manuel Serrat', 'Nino Bravo', 'Rocío Jurado'],
     answer: 'Joan Manuel Serrat',
   },
 ]
