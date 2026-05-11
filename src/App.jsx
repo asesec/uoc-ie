@@ -13,12 +13,12 @@ import { WellnessCheck } from './screens/WellnessCheck'
 const screens = {
   home: {
     title: BRAND_NAME,
-    subtitle: 'Acompanamiento digital sencillo para personas mayores.',
+    subtitle: 'Acompañamiento digital sencillo para personas mayores.',
     component: Home,
   },
   conversation: {
     title: `Hablar con ${BRAND_NAME}`,
-    subtitle: 'Una conversacion natural, grande y tranquila.',
+    subtitle: 'Una conversación natural, grande y tranquila.',
     component: Conversation,
   },
   family: {
@@ -27,13 +27,13 @@ const screens = {
     component: Family,
   },
   tasks: {
-    title: 'Gestiones acompanadas',
+    title: 'Gestiones acompañadas',
     subtitle: 'Procesos digitales simulados, explicados paso a paso.',
     component: AssistedTasks,
   },
   trip: {
     title: 'Viaje virtual',
-    subtitle: 'Imagenes grandes, narracion calmada y recuerdos positivos.',
+    subtitle: 'Imágenes grandes, narración calmada y recuerdos positivos.',
     component: VirtualTrip,
   },
   games: {

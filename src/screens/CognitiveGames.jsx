@@ -63,7 +63,7 @@ export function CognitiveGames() {
             ? isCorrect
               ? 'Aura Sr: Exacto. Lo has hecho muy bien. Seguimos cuando quieras.'
               : 'Aura Sr: No pasa nada. Lo importante es pasar un rato agradable.'
-            : 'Aura Sr: Elige la respuesta que te suene. No hay contador ni penalizacion.'}
+            : 'Aura Sr: Elige la respuesta que te suene. No hay contador ni penalización.'}
         </p>
       </section>
     </div>

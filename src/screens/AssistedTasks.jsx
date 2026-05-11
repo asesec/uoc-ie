@@ -27,13 +27,13 @@ export function AssistedTasks() {
         <StepPanel title={selectedTask.title} status={selectedTask.status} steps={selectedTask.steps} />
 
         <section className="senior-card rounded-[2rem] p-6">
-          <h3 className="text-3xl font-black text-slate-950">Tu decides el siguiente paso</h3>
+          <h3 className="text-3xl font-black text-slate-950">Tú decides el siguiente paso</h3>
           <p className="mt-2 text-xl text-slate-700">
-            Aura Sr no muestra formularios ni palabras dificiles. Solo confirma contigo antes de avanzar.
+            Aura Sr no muestra formularios ni palabras difíciles. Solo confirma contigo antes de avanzar.
           </p>
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
-            <BigButton>Si, continuar</BigButton>
-            <BigButton variant="secondary">Mejor mas tarde</BigButton>
+            <BigButton>Sí, continuar</BigButton>
+            <BigButton variant="secondary">Mejor más tarde</BigButton>
           </div>
         </section>
       </div>

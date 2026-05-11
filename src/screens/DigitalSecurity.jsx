@@ -15,7 +15,7 @@ export function DigitalSecurity() {
             <p className="text-lg font-black uppercase tracking-[0.18em] text-teal-800">Seguridad digital</p>
             <h2 className="text-5xl font-black tracking-tight text-slate-950">Aura Sr revisa antes de pulsar</h2>
           </div>
-          <StatusPill tone="amber">Revision simulada</StatusPill>
+          <StatusPill tone="amber">Revisión simulada</StatusPill>
         </div>
 
         <div className="rounded-[2rem] border-2 border-dashed border-amber-300 bg-amber-50 p-6">
@@ -45,7 +45,7 @@ export function DigitalSecurity() {
 
         <div className="mt-6 grid gap-3">
           <BigButton variant="warm" onClick={() => setExplained(true)}>
-            Explicamelo facil
+            Explícamelo fácil
           </BigButton>
           <BigButton variant="secondary">Llamar al banco seguro</BigButton>
           <BigButton variant="secondary">Avisar a Maria</BigButton>

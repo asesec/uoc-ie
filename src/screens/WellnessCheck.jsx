@@ -54,7 +54,7 @@ export function WellnessCheck() {
             Quiero avisar a alguien
           </BigButton>
           <BigButton variant="secondary" onClick={() => setStatus('pending')}>
-            Recordarmelo luego
+            Recuérdamelo luego
           </BigButton>
         </div>
       </aside>

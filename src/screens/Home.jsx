@@ -12,8 +12,8 @@ export function Home({ onNavigate }) {
             La tecnologia se adapta a ti.
           </h2>
           <p className="mt-6 max-w-3xl text-2xl leading-relaxed text-slate-700">
-            Aura Sr es un acompanante conversacional para personas mayores. Ayuda a hablar con la
-            familia, hacer gestiones, sentirse acompanado y navegar el mundo digital sin miedo.
+            Aura Sr es un acompañante conversacional para personas mayores. Ayuda a hablar con la
+            familia, hacer gestiones, sentirse acompañado y navegar el mundo digital sin miedo.
           </p>
         </div>
 
@@ -32,7 +32,7 @@ export function Home({ onNavigate }) {
       <section>
         <div className="mb-4 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-lg font-black uppercase tracking-[0.18em] text-teal-800">Elige que necesitas</p>
+            <p className="text-lg font-black uppercase tracking-[0.18em] text-teal-800">Elige qué necesitas</p>
             <h2 className="text-4xl font-black tracking-tight text-slate-950">Acciones grandes y claras</h2>
           </div>
           <p className="text-xl text-slate-700">Sin cuentas, sin formularios y sin servicios reales.</p>

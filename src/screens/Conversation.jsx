@@ -8,7 +8,7 @@ import { conversationMessages } from '../data/mockData'
 const simulatedReplies = [
   {
     from: 'user',
-    text: 'Si, revisemos la cita medica.',
+    text: 'Sí, revisemos la cita médica.',
     time: '09:05',
   },
   {
@@ -35,11 +35,11 @@ export function Conversation() {
       <section className="senior-card rounded-[2.5rem] p-5 md:p-7">
         <div className="mb-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="text-lg font-black uppercase tracking-[0.18em] text-teal-800">Conversacion principal</p>
+            <p className="text-lg font-black uppercase tracking-[0.18em] text-teal-800">Conversación principal</p>
             <h2 className="text-4xl font-black tracking-tight text-slate-950">Aura Sr te escucha</h2>
           </div>
           <StatusPill tone={isListening ? 'green' : 'teal'}>
-            {isListening ? 'Respuesta simulada lista' : 'Microfono simulado'}
+            {isListening ? 'Respuesta simulada lista' : 'Micrófono simulado'}
           </StatusPill>
         </div>
 
@@ -54,7 +54,7 @@ export function Conversation() {
         <VoiceButton onClick={simulateVoice} />
         <h3 className="mt-8 text-3xl font-black text-slate-950">Pulsa y habla</h3>
         <p className="mt-3 text-xl leading-relaxed text-slate-700">
-          En este prototipo la voz esta simulada. La experiencia representa hablar de forma natural
+          En este prototipo la voz está simulada. La experiencia representa hablar de forma natural
           con Aura Sr.
         </p>
         <BigButton variant="secondary" onClick={simulateVoice} className="mt-6 w-full">
