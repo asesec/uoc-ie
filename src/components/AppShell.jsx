@@ -17,9 +17,6 @@ export function AppShell({ title, subtitle, children, onHome, showBack = true })
               </span>
             </div>
             <div>
-              <p className="text-lg font-black tracking-normal text-teal-800">
-                <BrandMark variant="eyebrow" />
-              </p>
               <BrandHeadingTitle
                 title={title}
                 className="flex flex-wrap items-center gap-x-3 gap-y-2 text-3xl font-black tracking-tight text-slate-950 normal-case md:text-5xl"
